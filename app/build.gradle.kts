@@ -66,4 +66,14 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+
+    // ML Kit image labeling
+    implementation(libs.image.labeling)
+
+    // ML Kit facial detection
+    implementation(libs.face.detection)
+
+
+
 }
