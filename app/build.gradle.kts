@@ -74,6 +74,10 @@ dependencies {
     // ML Kit facial detection
     implementation(libs.face.detection)
 
+    // Coil for image loading
+    implementation(libs.coil.compose)
+
+
 
 
 }
